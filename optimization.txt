@@ -1,0 +1,7 @@
+List of small optimization used to improve the net :
+
+1) Each layer got a pointer to his previous and next layers. Thanks to this, we don't need to go through all the Model.layers vector to find them.
+
+2) We used an int variable called layersCount inside the Model to store the this->layers->size() without counting vector elements every time we need it.
+   This variable is incremented each time we add a layer.
+

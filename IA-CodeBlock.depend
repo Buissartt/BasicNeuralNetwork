@@ -1,0 +1,279 @@
+# depslib dependency file v1.0
+1633210490 source:/home/antoine/Documents/Dev/Cpp/IA-CodeBlock/src/ClassTest.cpp
+	"ClassTest.h"
+
+1633210480 /home/antoine/Documents/Dev/Cpp/IA-CodeBlock/include/ClassTest.h
+
+1647695456 source:/home/antoine/Documents/Dev/Cpp/IA-CodeBlock/main.cpp
+	<iostream>
+	"Model.h"
+	"ActivationFunction.h"
+	"Optimizer.h"
+	<opencv2/core.hpp>
+	<opencv2/imgcodecs.hpp>
+	<opencv2/highgui.hpp>
+	<sys/types.h>
+	<dirent.h>
+	<stdio.h>
+	<string>
+	<filesystem>
+
+1633253139 source:/home/antoine/Documents/Dev/Cpp/IA-CodeBlock/src/Functions.cpp
+	"Functions.h"
+
+1633258112 /home/antoine/Documents/Dev/Cpp/IA-CodeBlock/include/Functions.h
+	<math.h>
+	<stdlib.h>
+	<cmath>
+
+1633787500 source:/home/antoine/Documents/Dev/Cpp/IA-CodeBlock/src/ActivationFunction.cpp
+	"ActivationFunction.h"
+
+1633787468 /home/antoine/Documents/Dev/Cpp/IA-CodeBlock/include/ActivationFunction.h
+	<math.h>
+	<numeric>
+	<vector>
+	<iostream>
+
+1633851182 source:/home/antoine/Documents/Dev/Cpp/IA-CodeBlock/src/Neuron.cpp
+	"Neuron.h"
+	<math.h>
+	<random>
+	<chrono>
+
+1633623629 /home/antoine/Documents/Dev/Cpp/IA-CodeBlock/include/Neuron.h
+	"ActivationFunction.h"
+	<vector>
+
+1633850596 source:/home/antoine/Documents/Dev/Cpp/IA-CodeBlock/src/Layer.cpp
+	"Layer.h"
+
+1633850333 /home/antoine/Documents/Dev/Cpp/IA-CodeBlock/include/Layer.h
+	<vector>
+	"Neuron.h"
+
+1633865194 source:/home/antoine/Documents/Dev/Cpp/IA-CodeBlock/src/Model.cpp
+	"Model.h"
+
+1633865189 /home/antoine/Documents/Dev/Cpp/IA-CodeBlock/include/Model.h
+	<vector>
+	"Layer.h"
+	"Optimizer.h"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1633711751 source:/home/antoine/Documents/Dev/Cpp/IA-CodeBlock/src/LossFunction.cpp
+	"LossFunction.h"
+
+1633450934 /home/antoine/Documents/Dev/Cpp/IA-CodeBlock/include/LossFunction.h
+	<math.h>
+	<vector>
+
+1633529860 source:/home/antoine/Documents/Dev/Cpp/IA-CodeBlock/src/Optimizer.cpp
+	"Optimizer.h"
+
+1633529809 /home/antoine/Documents/Dev/Cpp/IA-CodeBlock/include/Optimizer.h
+	"LossFunction.h"
+
+1633794317 /usr/local/include/opencv4/opencv2/core.hpp
+	"opencv2/core/cvdef.h"
+	"opencv2/core/base.hpp"
+	"opencv2/core/cvstd.hpp"
+	"opencv2/core/traits.hpp"
+	"opencv2/core/matx.hpp"
+	"opencv2/core/types.hpp"
+	"opencv2/core/mat.hpp"
+	"opencv2/core/persistence.hpp"
+	"opencv2/core/operations.hpp"
+	"opencv2/core/cvstd.inl.hpp"
+	"opencv2/core/utility.hpp"
+	"opencv2/core/optim.hpp"
+	"opencv2/core/ovx.hpp"
+
+1633794317 /usr/local/include/opencv4/opencv2/core/cvdef.h
+	"opencv2/core/version.hpp"
+	"cvconfig.h"
+	<limits>
+	<limits.h>
+	"opencv2/core/hal/interface.h"
+	"cv_cpu_dispatch.h"
+	<intrin.h>
+	<array>
+	<cstdint>
+	<stdint.h>
+	<stdint.h>
+	"opencv2/core/fast_math.hpp"
+
+1633794317 /usr/local/include/opencv4/opencv2/core/version.hpp
+
+1633794317 /usr/local/include/opencv4/opencv2/core/hal/interface.h
+	<cstddef>
+	<stddef.h>
+	<stdbool.h>
+	<cstdint>
+	<stdint.h>
+
+1633794317 /usr/local/include/opencv4/opencv2/core/cv_cpu_dispatch.h
+	"cv_cpu_config.h"
+	"cv_cpu_helper.h"
+	<emmintrin.h>
+	<pmmintrin.h>
+	<tmmintrin.h>
+	<smmintrin.h>
+	<nmmintrin.h>
+	<nmmintrin.h>
+	<popcntintrin.h>
+	<immintrin.h>
+	<arm_neon.h>
+	<immintrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<Intrin.h>
+	<arm_neon.h>
+	<arm_neon.h>
+	<riscv-vector.h>
+	<arm_neon.h>
+	<altivec.h>
+	"hal/msa_macros.h"
+	<wasm_simd128.h>
+	<riscv_vector.h>
+	<emmintrin.h>
+	<Intrin.h>
+	<arm_neon.h>
+	<arm_neon.h>
+	<altivec.h>
+	<immintrin.h>
+
+1633794317 /usr/local/include/opencv4/opencv2/core/cv_cpu_helper.h
+
+1633794317 /usr/local/include/opencv4/opencv2/core/hal/msa_macros.h
+	"msa.h"
+	<stdint.h>
+
+1633794317 /usr/local/include/opencv4/opencv2/core/fast_math.hpp
+	"opencv2/core/cvdef.h"
+	<cmath>
+	<fastmath.h>
+	<math.h>
+	<emmintrin.h>
+	<altivec.h>
+
+1633794317 /usr/local/include/opencv4/opencv2/core/base.hpp
+	"opencv2/opencv_modules.hpp"
+	<climits>
+	<algorithm>
+	"opencv2/core/cvdef.h"
+	"opencv2/core/cvstd.hpp"
+	"opencv2/core/neon_utils.hpp"
+	"opencv2/core/vsx_utils.hpp"
+	"opencv2/core/check.hpp"
+
+1633809559 /usr/local/include/opencv4/opencv2/opencv_modules.hpp
+
+1633794317 /usr/local/include/opencv4/opencv2/core/cvstd.hpp
+	"opencv2/core/cvdef.h"
+	<cstddef>
+	<cstring>
+	<cctype>
+	<string>
+	<algorithm>
+	<utility>
+	<cstdlib>
+	<cmath>
+	"cvstd_wrapper.hpp"
+
+1633794317 /usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp
+	"opencv2/core/cvdef.h"
+	<string>
+	<memory>
+	<type_traits>
+
+1633794317 /usr/local/include/opencv4/opencv2/core/neon_utils.hpp
+	"opencv2/core/cvdef.h"
+
+1633794317 /usr/local/include/opencv4/opencv2/core/vsx_utils.hpp
+	"opencv2/core/cvdef.h"
+	<assert.h>
+
+1633794317 /usr/local/include/opencv4/opencv2/core/check.hpp
+	<opencv2/core/base.hpp>
+
+1633794317 /usr/local/include/opencv4/opencv2/core/traits.hpp
+	"opencv2/core/cvdef.h"
+
+1633794317 /usr/local/include/opencv4/opencv2/core/matx.hpp
+	"opencv2/core/cvdef.h"
+	"opencv2/core/base.hpp"
+	"opencv2/core/traits.hpp"
+	"opencv2/core/saturate.hpp"
+	<initializer_list>
+
+1633794317 /usr/local/include/opencv4/opencv2/core/saturate.hpp
+	"opencv2/core/cvdef.h"
+	"opencv2/core/fast_math.hpp"
+
+1633794317 /usr/local/include/opencv4/opencv2/core/types.hpp
+	<climits>
+	<cfloat>
+	<vector>
+	<limits>
+	"opencv2/core/cvdef.h"
+	"opencv2/core/cvstd.hpp"
+	"opencv2/core/matx.hpp"
+
+1633794317 /usr/local/include/opencv4/opencv2/core/mat.hpp
+	"opencv2/core/matx.hpp"
+	"opencv2/core/types.hpp"
+	"opencv2/core/bufferpool.hpp"
+	<type_traits>
+	"opencv2/core/mat.inl.hpp"
+
+1633794317 /usr/local/include/opencv4/opencv2/core/bufferpool.hpp
+
+1633794317 /usr/local/include/opencv4/opencv2/core/mat.inl.hpp
+
+1633794317 /usr/local/include/opencv4/opencv2/core/persistence.hpp
+	"opencv2/core/types.hpp"
+	"opencv2/core/mat.hpp"
+	"opencv2/core.hpp"
+	<time.h>
+
+1633794317 /usr/local/include/opencv4/opencv2/core/operations.hpp
+	<cstdio>
+
+1633794317 /usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp
+	<complex>
+	<ostream>
+	<sstream>
+
+1633794317 /usr/local/include/opencv4/opencv2/core/utility.hpp
+	"opencv2/core.hpp"
+	<ostream>
+	<functional>
+	<mutex>
+	"opencv2/core/utils/instrumentation.hpp"
+
+1633794317 /usr/local/include/opencv4/opencv2/core/utils/instrumentation.hpp
+	<opencv2/core/utility.hpp>
+	<opencv2/core/utils/tls.hpp>
+
+1633794317 /usr/local/include/opencv4/opencv2/core/utils/tls.hpp
+
+1633794317 /usr/local/include/opencv4/opencv2/core/optim.hpp
+	"opencv2/core.hpp"
+
+1633794317 /usr/local/include/opencv4/opencv2/core/ovx.hpp
+	"cvdef.h"
+
+1633794317 /usr/local/include/opencv4/opencv2/imgcodecs.hpp
+	"opencv2/core.hpp"
+
+1633794317 /usr/local/include/opencv4/opencv2/highgui.hpp
+	"opencv2/core.hpp"
+	"opencv2/imgcodecs.hpp"
+	"opencv2/videoio.hpp"
+
+1633794317 /usr/local/include/opencv4/opencv2/videoio.hpp
+	"opencv2/core.hpp"
+
